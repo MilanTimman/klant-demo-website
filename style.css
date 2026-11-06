@@ -6,6 +6,10 @@ body {
 }
 
 nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     margin-bottom: 20px;
 }
 
@@ -17,4 +21,21 @@ nav a {
 
 h1 {
     color: #39FF14;
+}
+
+p {  
+    margin-top: 20px;
+    max-width: 550px;
+    text-align: center;
+
+    color: #39FF14;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 50px;
 }
